@@ -1,5 +1,12 @@
+import ComponentA from "./components/ComponentA";
+import { UserAuthProvider } from "./context/userAuthContext";
+
 function App() {
-  return <h1>Context API</h1>;
+  return (
+    <UserAuthProvider>
+      <ComponentA />
+    </UserAuthProvider>
+  );
 }
 
 export default App;
