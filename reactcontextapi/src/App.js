@@ -1,11 +1,10 @@
 import ComponentA from "./components/ComponentA";
-import { UserAuthProvider } from "./context/userAuthContext";
 
 function App() {
   return (
-    <UserAuthProvider>
+    <div>
       <ComponentA />
-    </UserAuthProvider>
+    </div>
   );
 }
 
