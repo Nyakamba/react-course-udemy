@@ -1,9 +1,10 @@
-import ComponentA from "./components/ComponentA";
+import AddTodo from "./components/AddTodo";
+import "./components/AddTodo.css";
 
 function App() {
   return (
     <div>
-      <ComponentA />
+      <AddTodo />
     </div>
   );
 }
